@@ -1,0 +1,69 @@
+/* identified body of page with an id to make all elements uniform for font style, background color, and font size*/
+
+#home {
+    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+    background-color: lightgray;
+    font-size:20px;
+}
+
+/*gave logo an id as well for a consistent look on each page.*/
+#logo {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+/*navigation class with a black background and floating to the right*/
+.navigation {
+    float: right;
+    background-color: black;
+}
+
+/*used as s marker so that the user knows what page they are on*/
+.current-position{
+    color: green;
+}
+
+/*elements are white text on black background*/
+a{
+    padding:20px;
+    color:white;
+}
+
+/*carousel class has a fixed width and height so as to not make links at the top and bottom of the page jump around if pictures are not uniform in shape.*/
+.carousel
+{
+    width: 1000px;
+    height:250px;
+    margin:auto;
+}
+
+
+img {
+    vertical-align: middle;
+    height:100%;
+    width: 100%;
+}
+
+/*caption class centers text underneath carousel image.*/
+.caption
+{
+    font-size:20px;
+    width: 100%;
+    text-align:center;
+}
+
+#description{
+    margin-top:25px;
+    width: 750px;
+}
+
+#image-sources {
+    margin-top: 500px;
+
+}
+
+/*external link made blue as connecting to outsdie webpages.  attempt to provide a standard look.*/
+.external-link{
+    color:blue;
+}

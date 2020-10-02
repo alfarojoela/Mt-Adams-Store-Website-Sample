@@ -1,0 +1,74 @@
+#arrivals {
+    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+#logo {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.navigation {
+    float: right;
+    background-color: black;
+}
+
+.current-position {
+    color: green;
+}
+
+a{
+    padding:20px;
+    color:white;
+
+}
+
+img {
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+
+.caption
+{
+    font-size:20px;
+    width: 100%;
+    text-align:center;
+}
+
+.par1 
+{
+    margin:0;
+    width:100%;
+    text-align:center;
+    position:center;
+
+}
+
+.scroll-box 
+{
+    width: 1000px;
+    height: 500px;
+    overflow: auto;
+    margin:auto;
+    border: solid;
+}
+
+/*download-button.  kept text black instead of blue as this is not an external website.*/
+#download-button {
+    color: black;
+    vertical-align:middle;
+    background-color: lightblue;
+    font:30px;
+    border: solid;
+}
+
+#image-sources{
+    margin-top: 225px;
+}
+
+.external-link {
+    color: blue;
+}

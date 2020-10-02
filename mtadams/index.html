@@ -1,0 +1,98 @@
+﻿<!--
+** Author: Joel Alfaro
+** Class: CS 290/400
+** Description: Website for a hypothetical business for a secondhand store.  Website
+** contains home page and three subpages, pictures, carousel, scroll box,
+** unordered list, button to download file, links to external websites, and a form.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name=" viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Home</title>
+
+</head>
+
+<!--home id for body of page-->
+<body id="home">
+    <div id="logo">
+        Mount Adam's 2nd Hand Store
+
+        <!--navigation class for navigation menu.  used example from w3schools.com as a reference point-->
+        <!--color of logo text and navigation text are white on a black background.-->
+        <!--using a class to change text color to hi-lite text in green to show user current page they are on.-->
+        <div class="navigation">
+            <a href="index.html" class="current-position"> Home </a>
+            <a href="arrivals.html">Newest Arrivals </a>
+            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About </a>
+        </div>
+    </div>
+
+    <!--link for css file-->
+    <link href="styles/index-style.css" rel="stylesheet">
+
+    <br />
+
+    <!--paragraph centered with store description-->
+    <center>
+        <p id="description">
+            Our store is nestled on the outskirts of Wapato, Washington.  We have a little bit of everything.  We are a family run busines
+            and don't mind if you want to haggle over price.  So if you find yourself in Eastern Washington and off the beaten path, maybe
+            you will want to stop on in and have a look.
+        </p>
+    </center>
+
+    <!--carousel pictures.  class declared for carousel-->
+    <center>
+        <div class="carousel">
+            <div class="store-images">
+                <img class="pictures" src="images/pexels-image1a.jpg" />
+                <div class="caption">We have baubles, boxes, and bric a brac.</div>
+            </div>
+
+            <div class="store-images">
+                <img class="pictures" img src="images/pexels-image2b.jpg" />
+                <div class="caption">Dig through our collection of magazines!</div>
+            </div>
+
+            <div class="store-images">
+                <img class="pictures" img src="images/pexels-image3c.jpg" />
+                <div class="caption">Need to dress fancy, formal, or casual?</div>
+            </div>
+
+            <div class="store-images">
+                <img class="pictures" img src="images/pexels-image4d.jpg" />
+                <div class="caption">We have comic books.</div>
+            </div>
+
+            <div class="store-images">
+                <img class="pictures" img src="images/pexels-image5e.jpg" />
+                <div class="caption">Look at this collection of purses!</div>
+            </div>
+
+            <div class="store-images">
+                <img class="pictures" img src="images/pexels-image6.jpg" />
+                <div class="caption">We got VHS and Betamax.  Who needs DVD?</div>
+            </div>
+
+            <div class="store-images">
+                <img class="pictures" img src="images/pexels-image7.jpg" />
+                <div class="caption">Toys!</div>
+            </div>
+
+            <!--JavaScript file source-->
+            <script src="scripts/index-script.js"></script>
+        </div>
+    </center>
+  
+
+    <!--links to external sites.  also serves as giving credit for images.  external links are blue-->
+    <center> <footer id="image-sources"> <p>All images from:<a href="https://www.pexels.com" class="external-link">https://www.pexels.com </a></p></footer></center>
+    <center> <footer > <p>Coupon designed at :<a href="https://www.canva.com" class="external-link">https://www.canva.com </a></p></footer></center>
+</body>
+
+</html>

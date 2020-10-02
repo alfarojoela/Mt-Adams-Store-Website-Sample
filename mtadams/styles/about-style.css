@@ -1,0 +1,51 @@
+#about {
+    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+#logo {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.navigation {
+    float: right;
+    background-color: black;
+}
+
+.current-position {
+    color: green;
+}
+a{
+    padding:20px;
+    color:white;
+}
+
+img {
+    height:50%;
+    width: 50%;
+}
+
+.caption
+{
+    font-size:20px;
+    width: 100%;
+    text-align:left;
+}
+
+.par1 
+{
+    margin:0;
+    width:100%;
+    text-align:center;
+}
+
+#image-sources {
+    margin-top: 250px;
+}
+
+.external-link {
+    color: blue;
+}

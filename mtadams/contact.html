@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name=" viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Home</title>
+
+</head>
+
+<body id="contact">
+    <div id="logo">
+        Mount Adam's 2nd Hand Store
+
+        <div class="navigation">
+            <a href="index.html "> Home </a>
+            <a href="arrivals.html">Newest Arrivals </a>
+            <a href="contact.html" class="current-position">Contact Us</a>
+            <a href="about.html">About </a>
+        </div>
+    </div>
+
+    <!--links for css file-->
+    <link href="styles/contact-style.css" rel="stylesheet">
+    <!-- page content -->
+    <br />
+    <br />
+
+    <p class="par1">Looking for something?  We may have it.  Fill out the below form and we'll contact you by email.</p>
+
+    <img class="pictures" src="images/pexels-looking.jpg" />
+
+    <!--form uses post method.  declared as a class-->
+    <form id="contact-form" form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+        <fieldset>
+
+        <legend>Contact Us</legend>
+        <label>First name: </label><br />
+        <input type="text" name="firstname" required="" />
+        <br />
+        <label>Last name: </label><br />
+        <input type="text" name="lastname" required=""/>
+        <br />
+        <label>Item you are looking for: </label><br />
+        <input type="text" name="inventory" required=""/>
+        <br />
+        <label>Your email address:</label>
+        <br />
+        <input type="email" name="email" required=""/>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+            </fieldset>
+    </form>
+
+    <center> <footer id="image-sources"> <p>All images from:<a href="https://www.pexels.com" class="external-link">https://www.pexels.com </a></p></footer></center>
+    <center> <footer> <p>Coupon designed at :<a href="https://www.canva.com" class="external-link">https://www.canva.com </a></p></footer></center>
+
+</body>
+</html>
